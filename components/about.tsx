@@ -19,31 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+    As a <span className="font-medium">dedicated and skilled Software Engineer</span> with a profound background in <span className="font-medium">Java and full-stack development</span>, I specialize in creating robust and scalable IT solutions. Throughout my journey in the tech industry, I've refined my skills in <span className="font-medium">Java, ReactJS</span>, and a wide range of other technologies.
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+    My academic journey culminated in achieving a <span className="font-medium">Master's degree</span>, enhanced by a hands-on alternance experience, providing me with a solid blend of theoretical knowledge and practical expertise. This phase was critical in shaping my proficiency in designing, deploying, and maintaining <span className="italic">comprehensive IT solutions</span>, particularly for the B2C sector. I have undertaken diverse projects, from CRM systems to e-learning platforms, each demanding a keen eye for detail, a robust grasp of technical concepts, and a <span className="underline">passion for excellence</span>. My core stack includes <span className="font-medium">Java, ReactJS, and NodeJs</span> among other technologies. I am on a continuous quest for learning and am currently seeking a <span className="font-medium">full-time position</span> that allows me to further refine my skills and contribute to impactful projects.
+</p>
+
     </motion.section>
   );
 }
