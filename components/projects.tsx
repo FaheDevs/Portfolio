@@ -14,9 +14,14 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
-              <Project {...project} projectLink={project.projectLink} />
-          </React.Fragment>
+            <Project
+                key={index}
+                title={project.title}
+                description={project.description}
+                tags={project.tags}
+                imageUrl={project.imageUrl}
+                projectLink={project.projectLink}
+            />
         ))}
       </div>
     </section>

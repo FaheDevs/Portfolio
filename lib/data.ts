@@ -4,6 +4,7 @@ import {FaReact} from "react-icons/fa";
 import bankingImg from "@/public/BANKING.jpg";
 import microImg from "@/public/MICROSERVICES.png";
 import apiImg from "@/public/API.webp";
+import {IProjectProps} from "@/components/project";
 
 export const links = [
   {
@@ -60,14 +61,18 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export interface theArray {
+  theData: IProjectProps[];
+}
+
+export const projectsData:IProjectProps[] = [
   {
     title: "Core Banking System",
     description:
         "A showcase Java project employing TDD and Hexagonal Architecture for key banking functionalities and secure authentication via Keycloak",
     tags: ["Java", "Keycloak", "TDD", "Hexagonal Architecture"],
     imageUrl: bankingImg,
-    projectLink: ""
+    projectLink: "https://github.com/FaheDevs"
   },
   {
     title: "Microservices Online Shop",
@@ -75,7 +80,7 @@ export const projectsData = [
         "An e-commerce system powered by microservices, handling product cataloging, order management, inventory tracking, and customer notifications.",
     tags: ["Eureka Spring", "Spring API Gateway", "Resilience4j", "kafka", "Zipkin"],
     imageUrl: microImg,
-    projectLink: ""
+    projectLink: "https://github.com/FaheDevs"
   },
   {
     title: "MY Resume API",
@@ -83,9 +88,9 @@ export const projectsData = [
         "A comprehensive Resume API built with Spring in Java",
     tags: ["Spring", "Java", "API REST ", "SWAGGER"],
     imageUrl: apiImg,
-    projectLink: ""
+    projectLink: "https://apiresumeview.vercel.app/"
   },
-] as const;
+];
 
 
 export const skillsData = [
