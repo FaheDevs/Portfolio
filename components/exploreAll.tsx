@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const ExploreAll = () => {
   return (
-    <a href="https://yourwebsite.com/all-projects" 
+    <a href="https://github.com/FaheDevs"
        className="text-gray-600 font-bold hover:text-gray-800 transition duration-300 ease-in-out text-3xl flex items-center justify-center mb-8 w-full"
        target="_blank" 
        rel="noopener noreferrer">
