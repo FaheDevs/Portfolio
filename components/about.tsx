@@ -24,7 +24,7 @@ export default function About() {
             className="italic">maintainable, clean, and robust code</span> that adheres to object-oriented design
           principles, <span className="font-medium">SOLID standards</span>, and comprehensive unit testing for enhanced
           readability and future scalability. Holding a <span
-            className="font-medium">Master's degree</span> supplemented by real-world experience through an alternance
+            className="font-medium">Master&apos;s degree</span> supplemented by real-world experience through an alternance
           program, I have developed a strong foundation in both theoretical and practical aspects of software
           engineering, particularly in creating solutions tailored to the B2C sector.
 
