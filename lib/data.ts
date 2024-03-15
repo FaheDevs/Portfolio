@@ -67,7 +67,7 @@ export const projectsData = [
         "A showcase Java project employing TDD and Hexagonal Architecture for key banking functionalities and secure authentication via Keycloak",
     tags: ["Java", "Keycloak", "TDD", "Hexagonal Architecture"],
     imageUrl: bankingImg,
-    projectLink: "https://yourProjectLinkHere"
+    projectLink: ""
   },
   {
     title: "Microservices Online Shop",
@@ -75,7 +75,7 @@ export const projectsData = [
         "An e-commerce system powered by microservices, handling product cataloging, order management, inventory tracking, and customer notifications.",
     tags: ["Eureka Spring", "Spring API Gateway", "Resilience4j", "kafka", "Zipkin"],
     imageUrl: microImg,
-    projectLink: "https://example.com"
+    projectLink: ""
   },
   {
     title: "MY Resume API",
@@ -83,7 +83,7 @@ export const projectsData = [
         "A comprehensive Resume API built with Spring in Java",
     tags: ["Spring", "Java", "API REST ", "SWAGGER"],
     imageUrl: apiImg,
-    projectLink: "https://example.com"
+    projectLink: ""
   },
 ] as const;
 
